@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="board">
+        <form action="" id="todo-form">
+            <input type="text" name="" placeholder="new todo..." id="todo-input">
+            <button type="submit">ADD +</button>
+        </form>
+        <div class="lanes">
+            <div class="swim-lane" id="todo-lane">
+                <h3 class="heading">TODO</h3>
+                <p class="task" draggable="true">Task1</p>
+                <p class="task" draggable="true">Task2</p>
+                <p class="task" draggable="true">Task3</p>
+            </div>
+            <div class="swim-lane">
+                <h3 class="heading">Doing</h3>
+                <p class="task" draggable="true">Watching todo maker</p>
+            </div>
+            <div class="swim-lane">
+                <h3 class="heading">Done</h3>
+                <p class="task" draggable="true">Eating fruits</p>
+            </div>
+        </div>
+    </div>
+    <script src="drag.js"></script>
+    <script src="todo.js"></script>
+</body>
+</html>
